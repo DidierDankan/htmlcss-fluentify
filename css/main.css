@@ -38,7 +38,7 @@ h4 {
     width: 50%;
 }
 
-/*Buttons*/
+/*BUTTONS*/
 .button{
     display: inline-block;
     min-width: 70px;
@@ -61,7 +61,7 @@ h4 {
     border: 1px solid transparent;
 }
 
-/*main header*/
+/*MAIN HEADER*/
 
 .main-header{
     line-height: 70px;
@@ -77,7 +77,7 @@ h4 {
     vertical-align: middle;
 }
 
-/*main navigation*/
+/*MAIN NAVIGATION*/
 
 .main-header .nav-center {
     width: 45%;
@@ -104,7 +104,7 @@ h4 {
     margin-right: 0;
 }
 
-/*Main Banner*/
+/*MAIN BANNER*/
 
 .main-banner {
     background: rgb(51, 23, 150);
@@ -122,11 +122,12 @@ h4 {
 }
 
 .container .banner-text h1{
+    margin-bottom: 20px;
     color: #fff;
     font-size: 36px;
 }
 
-/*Break section*/
+/*BREAK SECTION*/
 
 .break-section {
     height: 90px;
@@ -135,7 +136,8 @@ h4 {
 }
 
 .break-section h2 {
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .break-section p {
@@ -143,13 +145,20 @@ h4 {
     color: rgb(151, 142, 142);
 }
 
-/*third section with columns*/
+/*THIRD SECTION WITH COLUMNS*/
 
 .column{
     width: 33%;
     padding: 15px;
     text-align: center;
     border: 1px solid #fff;
+}
+
+.column .shorter{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .column.middle{
@@ -175,7 +184,7 @@ h4 {
     color: rgb(151, 142, 142);
 }
 
-/*split screen*/
+/*SPLIT SCREEN*/
 
 /*container left*/
 
@@ -207,9 +216,10 @@ h4 {
     color: rgb(151, 142, 142);
 }
 
-/*Footer*/
+/*FOOTER*/
 
 footer {
+    position: relative;
     height: 90px;
     line-height: 90px;
     background: rgb(212, 208, 208);
@@ -233,7 +243,7 @@ footer h2 {
 
 .foot-nav li {
     display: inline-block;
-    margin-left: 20px;
+    margin-right: 20px;
     color: rgb(151, 142, 142);
     list-style: none;
 }
@@ -252,4 +262,15 @@ footer h2 {
     padding: 25px 5px;
     line-height: 0;
     border-radius: 5px;
+}
+
+/*HELP BUTTON*/
+
+.help-button{
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    line-height: 0;
+    border-radius: 5px;
+
 }
