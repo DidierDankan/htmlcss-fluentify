@@ -134,6 +134,15 @@ h4 {
     text-align: center;
 }
 
+.break-section h2 {
+    padding: 10px;
+}
+
+.break-section p {
+    font-size: 14px;
+    color: rgb(151, 142, 142);
+}
+
 /*third section with columns*/
 
 .column{
@@ -198,3 +207,49 @@ h4 {
     color: rgb(151, 142, 142);
 }
 
+/*Footer*/
+
+footer {
+    height: 90px;
+    line-height: 90px;
+    background: rgb(212, 208, 208);
+}
+
+footer h2 {
+    font-size: 22px;
+    display: inline-block;
+}
+
+.foot-left {
+    display: inline-block;
+    width: 60%;
+}
+
+.foot-nav {
+    display: inline-block;
+    width: 39%;
+    text-align: right;
+}
+
+.foot-nav li {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgb(151, 142, 142);
+    list-style: none;
+}
+ 
+.foot-nav li:nth-child(2) {
+    line-height: initial;
+    border-bottom: 1px solid rgb(151, 142, 142);
+}
+
+.foot-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.foot-nav .button.green {
+    padding: 25px 5px;
+    line-height: 0;
+    border-radius: 5px;
+}
