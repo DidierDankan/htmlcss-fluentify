@@ -100,7 +100,11 @@ h4 {
     color: #fff;
 }
 
-.menu-inline li:last-child{
+.menu-inline li a:hover {
+    color: rgb(71, 71, 233);
+}
+
+.menu-inline li:last-child {
     margin-right: 0;
 }
 
@@ -216,6 +220,13 @@ h4 {
     color: rgb(151, 142, 142);
 }
 
+.container .right a {
+    color: indigo;
+}
+.container .right a:hover {
+    color: blue;
+}
+
 /*FOOTER*/
 
 footer {
@@ -280,4 +291,9 @@ footer h2 {
     background: rgb(64, 126, 7);
     border: 1px solid #fff;
     border-radius: 10px;
+}
+
+.help-button:hover{
+    color: rgb(163, 139, 4);
+    text-shadow: 1px 1px rgb(151, 142, 142);
 }
