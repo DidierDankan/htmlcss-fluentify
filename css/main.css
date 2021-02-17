@@ -1,5 +1,140 @@
+/*GENERALS*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 500;
+}
+
+/*UTILITIES*/
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.w50 {
+    width: 50%;
+}
+
+/*Buttons*/
+.button{
+    display: inline-block;
+    min-width: 70px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    background: rgb(51, 23, 150);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.menu-inline .button {
+    line-height: 0;
+}
+
+.button.green {
+    background-color: rgb(32, 235, 42);
+    border: 1px solid transparent;
+}
+
+/*main header*/
+
+.main-header{
+    line-height: 70px;
+    text-transform: uppercase;
+    background: rgb(51, 23, 150);
+}
+
+.main-header .img-logo{
+    width: 15%;
+}
+
+.main-header .img-logo img{
+    vertical-align: middle;
+}
+
+/*main navigation*/
+
+.main-header .nav-center {
+    width: 45%;
+}
+
+.main-header .nav-right{
+    width: 40%;
+    text-align: right;
+}
+
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-inline li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-inline li:last-child{
+    margin-right: 0;
+}
+
+/*Main Banner*/
+
+.main-banner {
+    background: rgb(51, 23, 150);
+    height: 300px;
+    background-image: url('../img/background-header.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: 115% 110%;
+}
+
+.banner-text {
+    position: relative;
+    left: 0;
+    top: 60px;
+}
+
+.container .banner-text h1{
+    color: #fff;
+    font-size: 36px;
+}
+
+/*Break section*/
+
+.break-section {
+    height: 90px;
+    background: rgb(212, 208, 208);
+    text-align: center;
+}
+
+/*third section with coluns*/
+
+
+
