@@ -325,33 +325,57 @@ p {
 
 /*BONUS PAGE*/
 
-.container .hand1 img {
-    height: 200px;
+.container-special{
+    width: 900px;
+    margin: 50px auto;
 }
 
-.small-container {
+.container-special .left img {
+    height: 230px;
+}
+
+.container-special .left {
+    width: 55%;
+}
+
+.container-special .right {
+    padding-top: 30px;
+    padding-left: 70px;
+    width: 44%;
+}
+
+.container-special .right h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container-special .right p {
+    margin-bottom: 20px;
+}
+
+.mini-container {
+    width: 324px;
     height: 40px;
 }
 
-.small-container .button {
-    font-size:8px;
-    text-transform: uppercase;
-    text-align: left;
-    background: rgb(64, 126, 7);
+.mini-container a{
+    font-size: 10px;
+}
+
+.mini-container .button.green {
+    vertical-align: middle;
+    padding: 12px;
     border-radius: 5px;
 }
 
-.container .small-container .button {
-    width: 50%;
-    height: 40px;
-    color: #fff;
+.mini-container .mini-span {
+    display: inline-block;
+    width: 48%;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(9, 151, 132);
 }
 
-.container .small-container .span-container {
-    display: inline-block;
-    width: 49%;
-    text-align: center;
-}
 
 /*Versatile section*/
 
