@@ -43,6 +43,10 @@ p {
     width: 50%;
 }
 
+.w30{
+    width: 30%;
+}
+
 /*BUTTONS*/
 .button{
     display: inline-block;
@@ -368,4 +372,65 @@ p {
 
 .container2 .versatile a{
     color: darkcyan;
+}
+
+/*BREAK SECTION 3*/
+
+.break-section3 {
+    background: rgb(51, 23, 150);
+    height: 300px;
+}
+
+.break-section3 .container{
+    position:relative;
+    height: 100%;
+}
+
+.break-text3{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*SECTION 2 WITH 3 COLUMNS*/
+
+.white-viewport {
+    height: 400px;
+    background: #fff;
+}
+
+.container3 {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.head-column{
+    height: 20%;
+    text-align: center;
+}
+
+.columns2 {
+    width: 33%;
+}
+
+.columns2 img {
+    height: 40px;
+}
+
+/*BIG FOOTER*/
+
+footer {
+    background: rgb(51, 23, 150);
+    height: 300px;
+}
+
+footer .container .foot-span-colored {
+    color: darkgoldenrod;
+}
+
+footer .bg {
+    height: 70%;
+    background: rgb(68, 35, 187);
 }
