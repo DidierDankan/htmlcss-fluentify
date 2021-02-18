@@ -29,6 +29,16 @@ p {
     margin: 0 auto;
 }
 
+.white-viewport1 {
+    height: 500px;
+    background: #fff;
+}
+
+.white-viewport2 {
+    height: 350px;
+    background: #fff;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -405,12 +415,17 @@ p {
     color: rgb(119, 117, 117);
 }
 
+.break-text3 .button.green {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
 /*SECTION 2 WITH 3 COLUMNS*/
 
-.white-viewport {
+/*.white-viewport {
     height: 350px;
     background: #fff;
-}
+}*/
 
 .container3 {
     width: 800px;
