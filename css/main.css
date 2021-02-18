@@ -166,11 +166,6 @@ p {
     padding-bottom: 10px;
 }
 
-/*.break-section p {
-    font-size: 14px;
-    color: rgb(151, 142, 142);
-}*/
-
 /*THIRD SECTION WITH COLUMNS*/
 
 .column{
@@ -204,11 +199,6 @@ p {
     color: rgb(19, 112, 19);
     font-size: 18px;
 }
-
-/*.column p {
-    font-size: 14px;
-    color: rgb(151, 142, 142);
-}*/
 
 /*SPLIT SCREEN*/
 
@@ -252,7 +242,6 @@ p {
 /*FOOTER*/
 
 .break-section2 {
-    position: relative;
     height: 90px;
     line-height: 90px;
     background: rgb(212, 208, 208);
@@ -318,4 +307,65 @@ p {
 .help-button:hover{
     color: rgb(163, 139, 4);
     text-shadow: 1px 1px rgb(151, 142, 142);
+}
+
+/*BONUS PAGE*/
+
+.container .hand1 img {
+    height: 200px;
+}
+
+.small-container {
+    height: 40px;
+}
+
+.small-container .button {
+    font-size:8px;
+    text-transform: uppercase;
+    text-align: left;
+    background: rgb(64, 126, 7);
+    border-radius: 5px;
+}
+
+.container .small-container .button {
+    width: 50%;
+    height: 40px;
+    color: #fff;
+}
+
+.container .small-container .span-container {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+/*Versatile section*/
+
+.container2{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container2 .versatile img {
+    height: 200px;
+    margin: 50px 0 20px 0;
+}
+
+.versatile h2 .colored {
+    color: rgb(64, 126, 7);
+}
+
+.container2 .versatile .p1 {
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.container2 .versatile .p2 {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.container2 .versatile a{
+    color: darkcyan;
 }
