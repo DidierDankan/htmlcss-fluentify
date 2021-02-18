@@ -377,8 +377,9 @@ p {
 /*BREAK SECTION 3*/
 
 .break-section3 {
+    margin-bottom: 50px;
     background: rgb(51, 23, 150);
-    height: 300px;
+    height: 400px;
 }
 
 .break-section3 .container{
@@ -393,10 +394,21 @@ p {
     transform: translateY(-50%);
 }
 
+.container .break-text3 h2 {
+    margin-bottom: 40px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.container .break-text3 p {
+    margin-bottom: 25px;
+    color: rgb(119, 117, 117);
+}
+
 /*SECTION 2 WITH 3 COLUMNS*/
 
 .white-viewport {
-    height: 400px;
+    height: 350px;
     background: #fff;
 }
 
@@ -412,11 +424,56 @@ p {
 }
 
 .columns2 {
-    width: 33%;
+    width: 30%;
+}
+
+.columns2:nth-child(2){
+    margin: 0 3%;
 }
 
 .columns2 img {
+    margin-bottom: 20px;
     height: 40px;
+}
+
+.container-columns .columns2 h3 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.container-columns .columns2 p {
+    margin-bottom: 20px;
+    color: #978e8e91;
+}
+
+.colored-hr {
+    margin-bottom: 20px;
+    background-color: rgb(65, 147, 185);
+    height: 8px;
+}
+
+.colored-hr2 {
+    margin-bottom: 20px;
+    background-color: rgb(231, 154, 10);
+    height: 8px;
+}
+
+.colored-hr3{
+    margin-bottom: 20px;
+    background-color: rgb(39, 136, 19);
+    height: 8px;
+}
+
+.colored-a{
+    color: rgb(65, 147, 185);
+}
+
+.colored-a2 {
+    color: rgb(231, 154, 10)
+}
+
+.colored-a3 {
+   color: rgb(39, 136, 19);
 }
 
 /*BIG FOOTER*/
@@ -427,7 +484,16 @@ footer {
 }
 
 footer .container {
+    position: relative;
     height: 30%;
+}
+
+footer .container .text-FAQs{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    line-height: 2;
+
 }
 
 footer .container .foot-span-colored {
@@ -439,6 +505,11 @@ footer .bg {
     background: rgb(68, 35, 187);
 }
 
+footer .container.second {
+    position:relative;
+    height: 100%;
+}
+
 .container .half-footer1,
 .half-footer2 {
     display: inline-block;
@@ -446,5 +517,36 @@ footer .bg {
 }
 
 .container .half-footer2 {
+    position: absolute;
     text-align: right;
+}
+
+.container .half-footer1 h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.half-footer1 li {
+    list-style: none;
+}
+
+.half-footer1 li a {
+    text-decoration: none;
+    line-height: 2;
+    color: darkgray;
+}
+
+.container .half-footer2 h2,
+h3 {
+    color: #fff;
+}
+
+.container .half-footer2 h2 {
+    line-height: 4;
+    text-transform: uppercase;
+}
+
+.container .half-footer2 h3 {
+    margin-bottom: 20px;
 }
