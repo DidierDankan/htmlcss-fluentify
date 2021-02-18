@@ -426,6 +426,10 @@ footer {
     height: 300px;
 }
 
+footer .container {
+    height: 30%;
+}
+
 footer .container .foot-span-colored {
     color: darkgoldenrod;
 }
@@ -433,4 +437,14 @@ footer .container .foot-span-colored {
 footer .bg {
     height: 70%;
     background: rgb(68, 35, 187);
+}
+
+.container .half-footer1,
+.half-footer2 {
+    display: inline-block;
+    width: 49%;
+}
+
+.container .half-footer2 {
+    text-align: right;
 }
