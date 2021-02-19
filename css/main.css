@@ -535,7 +535,8 @@ footer .container .text-FAQs{
 
 }
 
-footer .container .foot-span-colored {
+footer .container .foot-a-colored {
+    text-decoration: none;
     color: darkgoldenrod;
 }
 
