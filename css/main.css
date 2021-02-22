@@ -66,13 +66,13 @@ p {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    background: rgb(51, 23, 150);
+    background: #0D325A;
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .menu-inline .button {
-    line-height: 0;
+    line-height: 1;
 }
 
 .button.green {
@@ -85,7 +85,7 @@ p {
 .main-header{
     line-height: 70px;
     text-transform: uppercase;
-    background: rgb(51, 23, 150);
+    background: #0D325A;
 }
 
 .main-header .img-logo{
@@ -130,7 +130,7 @@ p {
 /*MAIN BANNER*/
 
 .main-banner {
-    background: rgb(51, 23, 150);
+    background: #0D325A;
     height: 300px;
     background-image: url('../img/background-header.png');
     background-size: 700px;
@@ -266,35 +266,35 @@ p {
     display: inline-block;
 }
 
-.foot-left {
+.break-left {
     display: inline-block;
     width: 60%;
 }
 
-.foot-nav {
+.break-nav {
     display: inline-block;
     width: 39%;
     text-align: right;
 }
 
-.foot-nav li {
+.break-nav li {
     display: inline-block;
     margin-right: 20px;
     color: rgb(151, 142, 142);
     list-style: none;
 }
- 
-.foot-nav li:nth-child(2) {
+
+.break-nav li:nth-child(2) {
     line-height: initial;
     border-bottom: 1px solid rgb(151, 142, 142);
 }
 
-.foot-nav li a{
+.break-nav li a{
     text-decoration: none;
     color: #fff;
 }
 
-.foot-nav .button.green {
+.break-nav .button.green {
     padding: 25px 5px;
     line-height: 0;
     border-radius: 5px;
@@ -412,7 +412,7 @@ p {
 
 .break-section3 {
     margin-bottom: 50px;
-    background: rgb(51, 23, 150);
+    background: #0D325A;
     height: 400px;
 }
 
@@ -518,7 +518,7 @@ p {
 /*BIG FOOTER*/
 
 footer {
-    background: rgb(51, 23, 150);
+    background: #0f3e70;
     height: 300px;
 }
 
@@ -542,7 +542,7 @@ footer .container .foot-a-colored {
 
 footer .bg {
     height: 70%;
-    background: rgb(68, 35, 187);
+    background: #0D325A;
 }
 
 footer .container.second {
